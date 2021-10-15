@@ -25,9 +25,5 @@ pipeline {
                 echo 'deploying the application...'
             }
         }
-        post {
-
-        }
-
     }
 }
