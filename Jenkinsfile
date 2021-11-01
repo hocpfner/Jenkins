@@ -11,10 +11,9 @@ pipeline {
             }
         }
         stage("test") {
-            when {
-                expression {
-                    param.executesTests
-                }
+            steps {
+                echo 'testing the application...'
+            }
             }
             steps {
                 echo 'testing the application...'
